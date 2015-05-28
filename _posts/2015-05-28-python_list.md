@@ -3,11 +3,7 @@ layout: post
 title: Python list Comprehension
 description: "Some info about Python list Comprehensions feature."
 modified: 2015-05-28
-tags: [sample post, code, highlighting]
-image:
-  feature: abstract-10.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+tags: [sample post, code, python,list comprehenion]
 ---
 
 Python list comprehensions can be used to create lists in a very natural way. 
