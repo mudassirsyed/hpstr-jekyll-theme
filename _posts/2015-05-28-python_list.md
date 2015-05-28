@@ -13,10 +13,17 @@ image:
 Python list comprehensions can be used to create lists in a very natural way. 
 To create a list, think of the formulae or relationship between each item. 
 
-To modify styling and highlight colors edit `/_sass/_pygments.scss`.
-
 {% highlight python %}
-SQ = [x**2 for x in range(40)]
+SQ = [x**2 for x in range(20)]
 V = [2**i for i in range(10)]
 {% endhighlight %}
 
+This will create the following output 
+{% highlight python console session %}
+>>> SQ = [x**2 for x in range(20)]
+>>> SQ
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361]
+>>> V = [2**i for i in range(10)]
+>>> V
+[1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
+{% endhighlight %}
