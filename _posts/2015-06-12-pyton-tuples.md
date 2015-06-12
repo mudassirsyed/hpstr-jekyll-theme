@@ -35,6 +35,11 @@ A tuple can have lists as its elemets
 {% endhighlight %}
 
 Now, one may ask, what's the difference between using tuples vs list ??
-# tuples are immutable, lists are mutable
-#lists elements are generally homogeneous, tuples are hetrogenenous.
-#lists are iterated over, tuples are unpacked or indexed 
+
+Tuples| Lists
+----------------
+immutable| mutable
+------------------
+Generally hetrogeneous| generally homogeneous
+-----------------------------------------------
+generally accessed by unpacking or indexing | Generally iterated over
