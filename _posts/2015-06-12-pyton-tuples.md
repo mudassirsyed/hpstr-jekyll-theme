@@ -5,7 +5,7 @@ description: "Notes on using tuples in Python"
 modified: 2015-06-12
 tags: [tuple, code, python]
 ---
-# Something about them
+
 Tuples are number of values seperated by commas. Elements can be of different kinds.
 
 {% highlight python %}
@@ -36,10 +36,9 @@ A tuple can have lists as its elemets
 
 Now, one may ask, what's the difference between using tuples vs list ??
 
-Tuples| Lists
-----------------
-immutable| mutable
-------------------
-Generally hetrogeneous| generally homogeneous
------------------------------------------------
-generally accessed by unpacking or indexing | Generally iterated over
+| Tuples | Lists|
+|:--------|:-------:|
+|immutable| mutable|
+|Generally hetrogeneous| generally homogeneous|
+|Generally accessed by unpacking or indexing | Generally iterated over|
+|=====
