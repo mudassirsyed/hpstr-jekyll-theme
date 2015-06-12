@@ -56,7 +56,8 @@ we can unpack a tuple to get individual elements
 9
 {% endhighlight %}
 Note that the number of variables on right hand side should match the length of tuple.
-A tuple can be converted to list by using list 
+
+A tuple can be converted to list by using list() 
 {% highlight python %}
 >>> ll = list(m)
 >>> ll
