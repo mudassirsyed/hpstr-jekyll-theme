@@ -38,7 +38,27 @@ Now, one may ask, what's the difference between using tuples vs list ??
 
 | Tuples | Lists|
 |:--------|:-------:|
-|immutable| mutable|
-|Generally hetrogeneous| generally homogeneous|
+|Immutable| Mutable|
+|Generally hetrogeneous| Generally homogeneous|
 |Generally accessed by unpacking or indexing | Generally iterated over|
 |=====
+
+### Tuple unpacking 
+we can unpack a tuple to get individual elements
+{% highlight python %}
+>>> m=(3,7,9)
+>>> x,y,z = m 
+>>> x
+3
+>>> y
+7
+>>> z
+9
+{% endhighlight %}
+Note that the number of variables on right hand side should match the length of tuple.
+A tuple can be converted to list by using list 
+{% highlight python %}
+>>> ll = list(m)
+>>> ll
+[3, 7, 9]
+{% endhighlight %}
