@@ -28,12 +28,13 @@ Out[6]: ((12, 67, 'ping', 'ding'), (90, 100))
 
 A tuple can have lists as its elemets
 {% highlight python %}
+>>> lt= [1,2,3],[4,5,6]
 >>> lt
 ([1, 2, 3], [4, 5, 6])
 >>> 
 {% endhighlight %}
 
 Now, one may ask, what's the difference between using tuples vs list ??
-# tuples are immutable, lists are mutablr
+# tuples are immutable, lists are mutable
 #lists elements are generally homogeneous, tuples are hetrogenenous.
 #lists are iterated over, tuples are unpacked or indexed 
