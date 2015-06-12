@@ -5,7 +5,7 @@ description: "Notes on using tuples in Python"
 modified: 2015-06-12
 tags: [tuple, code, python]
 ---
-
+# Something about them
 Tuples are number of values seperated by commas. Elements can be of different kinds.
 
 {% highlight python %}
